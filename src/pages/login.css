@@ -1,0 +1,129 @@
+.containerLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+    background-image: url(../img/login.jpg);
+    background-position: center;
+    flex-direction: column;
+}
+.loginArea{
+    width: 600px;
+    display: flex;
+    height: 300px;
+    
+    
+
+}
+.loginLogoArea{
+    width: 50%;
+    background-color: #454545;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0px 0px 20px;
+}
+.loginLogoArea > .navbarLogo, .loginLogoArea > .navbarLogoFa{
+    font-size: 40px;
+    margin-left: 15px;
+}
+.navbarLogoFa{
+    animation: mymove 5s infinite;
+    margin-left: 3px;
+
+}
+@keyframes mymove {
+    50% {transform: rotate(180deg);}
+  }
+.loginFieldsArea{
+    width: 50%;
+    background-color: #867070;
+    border-radius: 0px 20px 20px 0px;
+    
+}
+
+.LoginformArea{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.LoginformArea label,input{
+    margin: 10px;
+}
+.LoginformArea label{
+    color: azure;
+}
+.LoginformArea input{
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    background-color: #454545;
+    color: whitesmoke;
+}
+.loginButton , .loginRegister{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.loginButton button{
+  width: 200px;
+  background-color: #6D67E4;
+  border-radius: 10px;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+}
+.registerPage{
+    height: 450px;
+
+}
+.loginButton button:hover{
+    background-color: #858494;
+}
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+

@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
-
+import TimeLine from './pages/TimeLine';
+import Profile from './pages/Profile';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import UpdateUserForm from './pages/UpdateUserForm';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+    <BrowserRouter>
+      <Routes>
+        
+        <Route exact path="/" element={<Login />}/>
+          
+          <Route  path="/register" element={<Register />} />
+          <Route  path="/profile/:id" element={<Profile />} />
+          <Route  path="/timeline/:id" element={<TimeLine />} />
+          <Route  path="/user/update/:id" element={<UpdateUserForm/>} />
+      </Routes>
+    </BrowserRouter>
+    
+    
+   
+    
+   
+    
+    </>
   );
 }
 

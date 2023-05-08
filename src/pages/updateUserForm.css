@@ -1,0 +1,21 @@
+.labelSmall{
+    font-size: 12px;
+    margin: 2px;
+    margin-left: 15px;
+}
+
+.updateUser{
+    width: 700Px;
+}
+.flexWrapUpdate input,label{
+    
+    width: 250px;
+    
+}
+
+.flexWrapUpdate{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: row;
+    
+}

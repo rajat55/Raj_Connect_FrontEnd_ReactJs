@@ -1,0 +1,65 @@
+*{
+    
+}
+
+.leftFlex{
+    width: 20%;
+    height: calc(100vh - 50px);
+   
+}
+.leftbarContainer{
+    width: 20%;
+    height: calc(100vh - 50px);
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: fixed;
+    top :50px;
+    left: 0;
+    overflow: scroll;
+
+    
+    
+}
+
+.leftbarItem{
+    display: flex;
+    height: 40px;
+    
+    
+    align-items: center;
+    justify-content: space-between;
+}
+.leftbarIcon{
+    font-size: 20px;
+    margin: 4px 0px ;
+    width: 15%;
+    color:#A31ACB;
+}
+.leftbarText{
+   
+    margin-left: 10px;
+    font-size: 400;
+    width: 80%;
+    color:#A31ACB;
+}
+.leftbarNavButtonContainer{
+    display: flex;
+    margin-top: 18px;
+    align-items: center;
+    width: 90%;
+    
+    
+}
+.leftbarNavButton{
+    padding: 5px;
+    font-size: 15px;
+    height: 20px;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #F3CCFF ;
+    color: #39B5E0;
+    cursor: pointer;
+}

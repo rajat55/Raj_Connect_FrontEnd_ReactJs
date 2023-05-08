@@ -1,0 +1,23 @@
+.FriendFollowContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bd9cad;
+    border-radius: 30px;
+    margin: 4px;
+}
+.FriendFollowName{
+   width: 270px;
+   padding: 3px;
+}
+.FollowButton{
+    background-color: blue;
+    color: aliceblue;
+    padding: 3px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.FollowButton:hover{
+    
+    color: black;
+}

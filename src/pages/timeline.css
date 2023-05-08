@@ -1,0 +1,8 @@
+.rightSedArea{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.onlineFriendsArea{
+    padding: 15px;
+}

@@ -1,0 +1,12 @@
+.userInfoProfileContainer{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #7C83FD;
+    border-radius: 10px;
+}
+.userInfoTitle{
+    font-weight: 800;
+}
+.userInfoList{
+    color: #FFF5B7;
+}

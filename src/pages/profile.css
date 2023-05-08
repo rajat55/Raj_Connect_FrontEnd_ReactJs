@@ -1,0 +1,9 @@
+.midAreaWithCover{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.postandAd{
+    display: flex;
+    gap: 20px;
+}

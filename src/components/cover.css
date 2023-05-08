@@ -1,0 +1,42 @@
+.coverContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #FF5DA2;
+    border-radius: 30px;
+}
+.coverImgArea{
+    object-fit: contain;
+    width: 100%;
+    
+    
+}
+
+.coverImgArea img{
+    height: 200px;
+    width: 100%;
+    border-radius: 30px;
+
+}
+.coverProfileImg{
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+.coverProfileImg img{
+    width: 100px;
+    height: 100Px;
+    border-radius: 50%;
+    border: 3px solid #FF5DA2;
+}
+.coverTextArea{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.userNameCover{
+    font-size: 30px;
+    margin: 0px;
+    color: #170055;
+}

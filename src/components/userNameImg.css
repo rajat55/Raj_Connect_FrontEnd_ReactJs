@@ -1,0 +1,41 @@
+.userNameImgContainer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
+}
+.userNameFlex{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.userNameImg{
+    position: relative;
+}
+
+.userNameImg img{
+    width: 40px;
+    height: 40px;
+    
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2.5px solid #72FFFF;
+}
+.userName{
+    font-size: 14px;
+    align-self: left;
+    color: #005792;
+   
+   
+}
+.onlineBatch{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
