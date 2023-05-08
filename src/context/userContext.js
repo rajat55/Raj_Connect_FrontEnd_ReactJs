@@ -3,9 +3,9 @@ import { createContext, useState } from "react";
 
 
  const INITIAL_STATE = {
-    userEmail:"test51@gamil.com",
+    userEmail:"",
     userName:null,
-    userId:"6457d893fde0e7497e4d2699"
+    userId:""
  }
 
 export const UserContext = createContext();

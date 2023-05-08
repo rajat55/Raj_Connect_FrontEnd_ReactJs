@@ -88,7 +88,7 @@ export default function Navbar() {
               <span className="badge">1</span>
             </div>
           </div>
-          <Link to={'/profile/'+userId}>
+          <Link className="noTD" to={'/profile/'+userId}>
           <div className="navbarRightSecRight">
             
             <img src={BackendUrl+imgUrl} alt="img" />

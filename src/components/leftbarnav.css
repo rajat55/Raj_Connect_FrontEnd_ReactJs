@@ -10,7 +10,7 @@
 .leftbarContainer{
     width: 20%;
     height: calc(100vh - 50px);
-    border: 1px solid red;
+    
     display: flex;
     flex-direction: column;
     padding: 10px;
